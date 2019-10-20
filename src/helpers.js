@@ -93,5 +93,5 @@ export function getFunName() {
     "data"
   ];
 
-  return `${rando(adjectives)}-${rando(adjectives)}-${rando(nouns)}`;
+  return `${rando(adjectives)}-${rando(nouns)}`;
 }
