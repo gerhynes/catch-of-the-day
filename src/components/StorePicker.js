@@ -1,7 +1,12 @@
 import React, { Fragment } from "react";
+import PropTypes from "prop-types";
 import { getFunName } from "../helpers";
 
 class StorePicker extends React.Component {
+  static propTypes = {
+    history: PropTypes.object
+  };
+
   storePickerInput = React.createRef();
 
   goToStore = e => {
