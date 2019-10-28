@@ -580,6 +580,9 @@ button.success:after,
 input[type="submit"].success:after {
   background: #2dc22d;
 }
+button.logout {
+  margin-bottom: 2rem;
+}
 button.github,
 input[type="submit"].github,
 button.facebook,
