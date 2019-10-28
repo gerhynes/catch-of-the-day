@@ -341,7 +341,7 @@ header.top h3:after {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
-  overflow: scroll;
+  overflow-y: scroll;
 }
 .catch-of-the-day > *:first-child {
   flex-shrink: 1;
@@ -595,11 +595,11 @@ input[type="submit"].twitter {
 }
 button.github,
 input[type="submit"].github {
-  background: #82d465;
+  background: #24292e;
 }
 button.github:after,
 input[type="submit"].github:after {
-  background: #5cc437;
+  background: #171515;
 }
 button.facebook,
 input[type="submit"].facebook {
